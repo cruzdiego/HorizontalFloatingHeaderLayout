@@ -6,6 +6,9 @@
 
 ![Example.gif](https://raw.githubusercontent.com/cruzdiego/HorizontalFloatingHeaderLayout/master/Pod/Assets/Example.gif)
 
+**HorizontalFLoatingHeaderLayout** is a subclass of UICollectionViewLayout built with performance in mind. Born from the need for replicating UITableView's sticky headers behavior and iOS 8+ native Emoji keyboard.
+
+For a vertical implementation, you can turn on *sectionHeadersPinToVisibleBounds* flag from UICollectionViewFlowLayout (available since iOS 9.0)
 
 ## Installation
 
