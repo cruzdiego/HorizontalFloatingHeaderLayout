@@ -73,7 +73,7 @@ class CollectionViewController: UICollectionViewController,HorizontalFloatingHea
     }
     
     //Line Spacing
-    func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderLineSpacingForSectionAtIndex section: Int) -> CGFloat {
+    func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderColumnSpacingForSectionAtIndex section: Int) -> CGFloat {
         return 8.0
     }
     

@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol HorizontalFloatingHeaderLayoutDelegate{
+@objc public protocol HorizontalFloatingHeaderLayoutDelegate{
     //Item size
     func collectionView(collectionView: UICollectionView,horizontalFloatingHeaderItemSizeForItemAtIndexPath indexPath:NSIndexPath) -> CGSize
     
@@ -16,13 +16,13 @@ public protocol HorizontalFloatingHeaderLayoutDelegate{
     func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderSizeForSectionAtIndex section: Int) -> CGSize
     
     //Section Inset
-    func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderSectionInsetForSectionAtIndex section: Int) -> UIEdgeInsets
+    optional func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderSectionInsetForSectionAtIndex section: Int) -> UIEdgeInsets
     
     //Item Spacing
-    func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderItemSpacingForSectionAtIndex section: Int) -> CGFloat
+    optional func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderItemSpacingForSectionAtIndex section: Int) -> CGFloat
     
     //Line Spacing
-    func collectionView(collectionView: UICollectionView,horizontalFloatingHeaderLineSpacingForSectionAtIndex section: Int) -> CGFloat
+    optional func collectionView(collectionView: UICollectionView,horizontalFloatingHeaderColumnSpacingForSectionAtIndex section: Int) -> CGFloat
 }
 
 public class HorizontalFloatingHeaderLayout: UICollectionViewLayout {
@@ -68,7 +68,7 @@ public class HorizontalFloatingHeaderLayout: UICollectionViewLayout {
             //Applying corrected layout
             func newLineOrigin(size size:CGSize)->CGPoint{
                 var origin = CGPointZero
-                origin.x = currentMaxX + lineSpacing(forSection: indexPath.section)
+                origin.x = currentMaxX + columnSpacing(forSection: indexPath.section)
                 origin.y = inset(ForSection: indexPath.section).top + headerSize(forSection: indexPath.section).height
                 return origin
             }
@@ -246,18 +246,23 @@ public class HorizontalFloatingHeaderLayout: UICollectionViewLayout {
     }
     
     private func inset(ForSection section:Int) -> UIEdgeInsets{
-        guard let delegate = collectionView?.delegate as? HorizontalFloatingHeaderLayoutDelegate where section >= 0 else {return UIEdgeInsetsZero}
-        return delegate.collectionView(collectionView!, horizontalFloatingHeaderSectionInsetForSectionAtIndex: section)
+        let defaultValue = UIEdgeInsetsZero
+        guard let delegate = collectionView?.delegate as? HorizontalFloatingHeaderLayoutDelegate where section >= 0 else {return defaultValue}
+        
+        return delegate.collectionView?(collectionView!, horizontalFloatingHeaderSectionInsetForSectionAtIndex: section) ?? defaultValue
     }
     
-    private func lineSpacing(forSection section:Int) -> CGFloat{
-        guard let delegate = collectionView?.delegate as? HorizontalFloatingHeaderLayoutDelegate where section >= 0 else {return 0.0}
-        return delegate.collectionView(collectionView!, horizontalFloatingHeaderLineSpacingForSectionAtIndex: section)
+    private func columnSpacing(forSection section:Int) -> CGFloat{
+        let defaultValue:CGFloat = 0.0
+        guard let delegate = collectionView?.delegate as? HorizontalFloatingHeaderLayoutDelegate where section >= 0 else {return defaultValue}
+        
+        return delegate.collectionView?(collectionView!, horizontalFloatingHeaderColumnSpacingForSectionAtIndex: section) ?? defaultValue
     }
     
     private func itemSpacing(forSection section:Int) -> CGFloat{
-        guard let delegate = collectionView?.delegate as? HorizontalFloatingHeaderLayoutDelegate where section >= 0 else {return 0.0}
-        return delegate.collectionView(collectionView!, horizontalFloatingHeaderItemSpacingForSectionAtIndex: section)
+        let defaultValue:CGFloat = 0.0
+        guard let delegate = collectionView?.delegate as? HorizontalFloatingHeaderLayoutDelegate where section >= 0 else {return defaultValue}
+        return delegate.collectionView?(collectionView!, horizontalFloatingHeaderItemSpacingForSectionAtIndex: section) ?? defaultValue
     }
     
     private func availableHeight(atSection section:Int)->CGFloat{
