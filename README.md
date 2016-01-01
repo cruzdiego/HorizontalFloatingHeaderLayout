@@ -24,11 +24,11 @@ pod "HorizontalFloatingHeaderLayout"
 
 - From Storyboard:
 
-1. On your UICollectionView's inspector, change its layout to "Custom" and type *HorizontalFloatingHeaderLayout* on the class field
+**1.** On your UICollectionView's inspector, change its layout to "Custom" and type *HorizontalFloatingHeaderLayout* on the class field
 
 ![](https://raw.githubusercontent.com/cruzdiego/HorizontalFloatingHeaderLayout/master/Pod/Assets/storyboard.png)
 
-3. Import framework to your UIViewController subclass...
+**2.** Import framework to your UIViewController subclass...
 
 ```swift
 import HorizontalFloatingHeaderLayout
@@ -40,28 +40,29 @@ and make it conform protocol HorizontalFloatingHeaderLayoutDelegate
 class YourViewController: UIViewController, HorizontalFloatingHeaderLayoutDelegate {
 ```
 
-4. Implement all the necessary delegate methods.
+**3.** Implement all the necessary delegate methods.
 
 - Programatically:
 
-1. Import framework to your UIViewController subclass
+**1.** Import framework to your UIViewController subclass
 
 ```swift
 import HorizontalFloatingHeaderLayout
+```
 
-2. Instantiate and add to your UICollectionView object
+**2.** Instantiate and add to your UICollectionView object
 
 ```swift
 collectionView.collectionViewLayout = HorizontalFloatingHeaderLayout()
 ```
 
-3. Make your UIViewController subclass conform protocol HorizontalFloatingHeaderLayoutDelegate
+**3.** Make your UIViewController subclass conform protocol HorizontalFloatingHeaderLayoutDelegate
 
 ```swift
 class YourViewController: UIViewController, HorizontalFloatingHeaderLayoutDelegate {
 ```
 
-4. Implement all the necessary delegate methods.
+**4.** Implement all the necessary delegate methods.
 
 ##Delegate methods
 
