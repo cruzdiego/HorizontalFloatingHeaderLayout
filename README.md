@@ -9,7 +9,7 @@
 
 ## Installation
 
-- Via [CocoaPods](http://cocoapods.org):
+####Via [CocoaPods](http://cocoapods.org):
 
 ```ruby
 pod "HorizontalFloatingHeaderLayout"
@@ -22,7 +22,7 @@ pod "HorizontalFloatingHeaderLayout"
 
 ##Usage
 
-###From Storyboard:
+####From Storyboard:
 
 **1.** On your UICollectionView's inspector, change its layout to "Custom" and type *HorizontalFloatingHeaderLayout* on the class field
 
@@ -42,7 +42,7 @@ class YourViewController: UIViewController, HorizontalFloatingHeaderLayoutDelega
 
 **3.** Implement all the necessary delegate methods.
 
-###Programatically:
+####Programatically:
 
 **1.** Import framework to your UIViewController subclass
 
