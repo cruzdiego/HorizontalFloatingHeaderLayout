@@ -15,7 +15,7 @@
 pod "HorizontalFloatingHeaderLayout"
 ```
 
-- Manually:
+####Manually:
 
 1. Clone this repo or download it as a .zip file
 2. Drag and drop HorizontalFloatingHeaderLayout.swift to your project
