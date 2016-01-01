@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08EEA91A1C35DD9500130ECC /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EEA9191C35DD9500130ECC /* CollectionViewController.swift */; };
-		08EEA91D1C35DDB300130ECC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EEA91C1C35DDB300130ECC /* HeaderView.swift */; };
 		08EEA91F1C35DE4400130ECC /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EEA91E1C35DE4400130ECC /* HeaderView.xib */; };
-		08EEA9211C36274400130ECC /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EEA9201C36274400130ECC /* ItemCell.swift */; };
 		35B6BD09B5F4EFAB084E30B7 /* Pods_HorizontalFloatingHeaderLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64B638E7142D74A9C30C0D9 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -34,9 +32,7 @@
 		0015CC8F39C984ECCE3B006C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		00F184C34B58141C9D600309 /* HorizontalFloatingHeaderLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HorizontalFloatingHeaderLayout.podspec; path = ../HorizontalFloatingHeaderLayout.podspec; sourceTree = "<group>"; };
 		08EEA9191C35DD9500130ECC /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		08EEA91C1C35DDB300130ECC /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		08EEA91E1C35DE4400130ECC /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
-		08EEA9201C36274400130ECC /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		412C2F88DECB4D9C931B2303 /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		447A70719E9CF0645CC2D45C /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalFloatingHeaderLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58449959429EE3539208DF6B /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,14 +71,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08EEA91B1C35DD9900130ECC /* Cells */ = {
+		08EEA9221C36BC1C00130ECC /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				08EEA91C1C35DDB300130ECC /* HeaderView.swift */,
-				08EEA91E1C35DE4400130ECC /* HeaderView.xib */,
-				08EEA9201C36274400130ECC /* ItemCell.swift */,
+				08EEA9191C35DD9500130ECC /* CollectionViewController.swift */,
+				08EEA9231C36BC2300130ECC /* Header */,
 			);
-			name = Cells;
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		08EEA9231C36BC2300130ECC /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				08EEA91E1C35DE4400130ECC /* HeaderView.xib */,
+			);
+			name = Header;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -109,9 +112,8 @@
 		607FACD21AFB9204008FA782 /* Example for HorizontalFloatingHeaderLayout */ = {
 			isa = PBXGroup;
 			children = (
-				08EEA91B1C35DD9900130ECC /* Cells */,
+				08EEA9221C36BC1C00130ECC /* CollectionView */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				08EEA9191C35DD9500130ECC /* CollectionViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -377,9 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08EEA9211C36274400130ECC /* ItemCell.swift in Sources */,
 				08EEA91A1C35DD9500130ECC /* CollectionViewController.swift in Sources */,
-				08EEA91D1C35DDB300130ECC /* HeaderView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

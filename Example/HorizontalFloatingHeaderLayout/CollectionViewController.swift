@@ -18,12 +18,17 @@ class CollectionViewController: UICollectionViewController,HorizontalFloatingHea
     }
     
     private func configure(){
+        func configureCollectionView(){
+            collectionView?.contentInset = UIEdgeInsetsMake(8, 8, 8, 8)
+        }
+        
         func configureHeaderCell(){
             let headerNib = UINib(nibName: "HeaderView",bundle: nil)
             collectionView?.registerNib(headerNib, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "headerView")
         }
         
         //
+        configureCollectionView()
         configureHeaderCell()
     }
 
@@ -41,8 +46,7 @@ class CollectionViewController: UICollectionViewController,HorizontalFloatingHea
 
     //Cells
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! ItemCell
-        cell.configure(title: "\(indexPath.row)")
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath)
         return cell
     }
     
@@ -55,12 +59,12 @@ class CollectionViewController: UICollectionViewController,HorizontalFloatingHea
     //MARK: Delegate (HorizontalFloatingHeaderDelegate)
     //Item Size
     func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderItemSizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        return CGSizeMake(60, 60)
+        return CGSizeMake(48, 48)
     }
     
     //Header Size
     func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderSizeForSectionAtIndex section: Int) -> CGSize {
-        return CGSizeMake(120, 44)
+        return CGSizeMake(160, 30)
     }
     
     //Item Spacing
@@ -75,6 +79,11 @@ class CollectionViewController: UICollectionViewController,HorizontalFloatingHea
     
     //Section Insets
     func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderSectionInsetForSectionAtIndex section: Int) -> UIEdgeInsets {
-        return UIEdgeInsetsMake(8, 4, 8, 4)
+        switch section{
+        case 0:
+            return UIEdgeInsetsMake(8, 0, 0, 0)
+        default:
+            return UIEdgeInsetsMake(8, 8, 0, 0)
+        }
     }
 }
