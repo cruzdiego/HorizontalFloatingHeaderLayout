@@ -1,0 +1,14 @@
+PODS:
+  - HorizontalFloatingHeaderLayout (0.1.0)
+
+DEPENDENCIES:
+  - HorizontalFloatingHeaderLayout (from `../`)
+
+EXTERNAL SOURCES:
+  HorizontalFloatingHeaderLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HorizontalFloatingHeaderLayout: 5ec106b363a8badb0188d888714c62c944804e09
+
+COCOAPODS: 0.39.0
