@@ -7,301 +7,283 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B752AC83779C43AB9589D43B25723B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		0804C5EF1C343B860032D97B /* HorizontalFloatingHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804C5EE1C343B860032D97B /* HorizontalFloatingHeaderLayout.swift */; };
-		0EE14387AA9D62FC01BF5B9F16B0A4B3 /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 982BA297986D2BD9D5BE2D86D5013B8C /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14608AB3647D11DD7F6CF3AB4F0F3D44 /* HorizontalFloatingHeaderLayout.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF87178C0C9E48AA5B1B9F2EB0DB03B4 /* HorizontalFloatingHeaderLayout.bundle */; };
-		23D3260C7D12AEFD2EE36D4C8B94168C /* Pods-HorizontalFloatingHeaderLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73D32B94F1D576AA1CDBEAFC683A28B /* Pods-HorizontalFloatingHeaderLayout_Tests-dummy.m */; };
-		920704691E81FEA828666D8938904B68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		A339B7B640015996C78BD4AE281D6661 /* Pods-HorizontalFloatingHeaderLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FFB7CA021DD7288459937746415177 /* Pods-HorizontalFloatingHeaderLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A764C14D47F643FF46608079CC46FDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		C894298181F77D53C67A401C843207D2 /* HorizontalFloatingHeaderLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D78F31AFD0714061E7BA6330DDBFF17 /* HorizontalFloatingHeaderLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD71E6C4B3688674761585344116467A /* HorizontalFloatingHeaderLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A411E4F12F663D3A489C9949C1B3E3 /* HorizontalFloatingHeaderLayout-dummy.m */; };
-		E668EB4A00A88A8EAB7FCE4A808B108F /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC16D4AE69FCCEB8928B3977ACD576 /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m */; };
+		183DD710FF2C7CE76440DF885DDA4AF0 /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B72DBFDDA5F63BBD21065F4F4F30741F /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E1E25713526C0E8F736C46908067AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		765B71B0DEAC48F6FA9149CBD537C743 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0091FB6F5C808D4AE028F818BFE8BC86 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B96931BBCE2E5A86130DE4BB222F1A7 /* HorizontalFloatingHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFADFC5D7BE31B07C03D038DA29D6074 /* HorizontalFloatingHeaderLayout.swift */; };
+		92EB1E290D3130338B14007C7E3482F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9CB4E071CBABB3233A4C429869667CB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		AC9915D5AAA655F2F9AA177D7EB2AB0E /* HorizontalFloatingHeaderLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B977FF3598C981B5753481E36FF642 /* HorizontalFloatingHeaderLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD916D82D1A8D607951848159215F324 /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D590AB4634D27472691533D983AD0EEA /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m */; };
+		DDEB4ED4B8000E059C227765B5393739 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C0C40F96B58EC8AA1A28A7C254E029 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-dummy.m */; };
+		E2FD51E4F2ABA34089229561C403D53F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		F432BA97545691A962C516E80A3B68D4 /* HorizontalFloatingHeaderLayout.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C75BB7F20DCFBD0CF57C085BB34D99BF /* HorizontalFloatingHeaderLayout.bundle */; };
+		F792A491BD4433CC9199206B8217F1E8 /* HorizontalFloatingHeaderLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4518CCF961A5B1AEC27B1F6A25F89 /* HorizontalFloatingHeaderLayout-dummy.m */; };
+		FD3FBBCFCC6621C60FA0E667046CD9AE /* storyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC8C55F4483B65F11CB6E6AE3E4F4AA /* storyboard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1EA6E3A244752424EA7328A895EDBD0D /* PBXContainerItemProxy */ = {
+		1FAD4F13BA136250B7F5555B7E025D7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E6FBC8B4CEC38207C993D444596A966;
-			remoteInfo = "HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout";
-		};
-		26A792D537EA660F2187B6B97AC947E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 388B9CA3C57E3DE86E22A74D6A73C9C6;
+			remoteGlobalIDString = F2FEB198244C1161E741FD1FBD693A83;
 			remoteInfo = HorizontalFloatingHeaderLayout;
 		};
-		F084A0B9B8D54DED310E390C0C5001D5 /* PBXContainerItemProxy */ = {
+		4E10504E69F7BFFAAA4DBC471D495A22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 388B9CA3C57E3DE86E22A74D6A73C9C6;
+			remoteGlobalIDString = 46CD6F308C225BA2E863C3E523C1E400;
+			remoteInfo = "HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout";
+		};
+		73ADEB0922E9A4CDFFA291B1EB0E2FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2FEB198244C1161E741FD1FBD693A83;
 			remoteInfo = HorizontalFloatingHeaderLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		078122625B6FBAF76391106B4366B486 /* Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0804C5EE1C343B860032D97B /* HorizontalFloatingHeaderLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalFloatingHeaderLayout.swift; sourceTree = "<group>"; };
-		15318A3A4EA30985D3099F71F296EA1A /* Pods-HorizontalFloatingHeaderLayout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalFloatingHeaderLayout_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		178F489FA8E12A0CE3A291B8084C7264 /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		17A21ECA40F443A3D4B0D90112757768 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalFloatingHeaderLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18FC16D4AE69FCCEB8928B3977ACD576 /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalFloatingHeaderLayout_Example-dummy.m"; sourceTree = "<group>"; };
-		275E23852223B0C3DEC24F9BCA17E5DE /* Pods-HorizontalFloatingHeaderLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HorizontalFloatingHeaderLayout_Example.modulemap"; sourceTree = "<group>"; };
-		28853D47110D9D5A9559EB2FC5290665 /* HorizontalFloatingHeaderLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HorizontalFloatingHeaderLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32197E2B7D61026633E58195B9589EE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34E00B2D3250BDD0A52EF7D696E82804 /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalFloatingHeaderLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CAD6F0A792771B73924C8BA00A12799 /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5ED26251227B8C592B8E30289D12D0EC /* Pods-HorizontalFloatingHeaderLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalFloatingHeaderLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5EE81508F1D149CA401233ACA55E97A0 /* Pods-HorizontalFloatingHeaderLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalFloatingHeaderLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		65A411E4F12F663D3A489C9949C1B3E3 /* HorizontalFloatingHeaderLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HorizontalFloatingHeaderLayout-dummy.m"; sourceTree = "<group>"; };
-		6A3C2F44C720FE5B949D6E7B8D2C5691 /* Pods-HorizontalFloatingHeaderLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalFloatingHeaderLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6E55A62A7063C29BB55E0C0E0A5D8A4B /* HorizontalFloatingHeaderLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalFloatingHeaderLayout-prefix.pch"; sourceTree = "<group>"; };
-		74A716DF5F96F46A5FFA1D367C14DFB7 /* HorizontalFloatingHeaderLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalFloatingHeaderLayout.xcconfig; sourceTree = "<group>"; };
-		7D78F31AFD0714061E7BA6330DDBFF17 /* HorizontalFloatingHeaderLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalFloatingHeaderLayout-umbrella.h"; sourceTree = "<group>"; };
-		9444103F1CC8BCC46CD2D6E88BAC8351 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		982BA297986D2BD9D5BE2D86D5013B8C /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h"; sourceTree = "<group>"; };
-		9E040DFEE522DEC6192E0CE24B85DA69 /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A5FAFBD21B6737CBA13627A640346BB4 /* HorizontalFloatingHeaderLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HorizontalFloatingHeaderLayout.modulemap; sourceTree = "<group>"; };
-		B8152F7A3455E37F9BB94D34C2F32826 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAD77AA40F0D0C6A3F74F6212DEC5C27 /* Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BF87178C0C9E48AA5B1B9F2EB0DB03B4 /* HorizontalFloatingHeaderLayout.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalFloatingHeaderLayout.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C447C0E225AB97CBA5FE42ECF7885CCB /* Pods-HorizontalFloatingHeaderLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HorizontalFloatingHeaderLayout_Tests.modulemap"; sourceTree = "<group>"; };
-		C73D32B94F1D576AA1CDBEAFC683A28B /* Pods-HorizontalFloatingHeaderLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalFloatingHeaderLayout_Tests-dummy.m"; sourceTree = "<group>"; };
-		E9E42F4339068E9066BD8F27B9551F4D /* Pods-HorizontalFloatingHeaderLayout_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalFloatingHeaderLayout_Example-resources.sh"; sourceTree = "<group>"; };
-		ECEB2674A5001BC5F7955B9F757C80DC /* Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3FFB7CA021DD7288459937746415177 /* Pods-HorizontalFloatingHeaderLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalFloatingHeaderLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FA4CF4928494EB3ADC8598DBD6FB660F /* Pods-HorizontalFloatingHeaderLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalFloatingHeaderLayout_Tests-resources.sh"; sourceTree = "<group>"; };
+		0091FB6F5C808D4AE028F818BFE8BC86 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
+		02E992475DB6179C6828C9BD30931760 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		18F0DC43985926B3A4808D347FB3943D /* HorizontalFloatingHeaderLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalFloatingHeaderLayout-prefix.pch"; sourceTree = "<group>"; };
+		196EFC607D7F61068EB6EC48C37064BB /* HorizontalFloatingHeaderLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HorizontalFloatingHeaderLayout.modulemap; sourceTree = "<group>"; };
+		1DE58AE33E74F5A699AE7A067CB23520 /* Pods_HorizontalFloatingHeaderLayout_Example_HorizontalFloatingHeaderLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalFloatingHeaderLayout_Example_HorizontalFloatingHeaderLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C60ACDF0396F238A2FA45070A7695B /* Pods-HorizontalFloatingHeaderLayout_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalFloatingHeaderLayout_Example-resources.sh"; sourceTree = "<group>"; };
+		278BD13B5A45B83CB79CF8EB3C0446D5 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalFloatingHeaderLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA4518CCF961A5B1AEC27B1F6A25F89 /* HorizontalFloatingHeaderLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HorizontalFloatingHeaderLayout-dummy.m"; sourceTree = "<group>"; };
+		53A5FC28CB2F41BA02E7877BD54FA5AE /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		608A716741CE98AAC30861C222597283 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.modulemap"; sourceTree = "<group>"; };
+		6F8E2BAA62E61386C8A701245698E945 /* HorizontalFloatingHeaderLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HorizontalFloatingHeaderLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3BA988000306878EA1BFC180E40549 /* Pods-HorizontalFloatingHeaderLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalFloatingHeaderLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7A3FE6D67C88A414BEAABE745F7B0A76 /* ResourceBundle-HorizontalFloatingHeaderLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HorizontalFloatingHeaderLayout-Info.plist"; sourceTree = "<group>"; };
+		87B977FF3598C981B5753481E36FF642 /* HorizontalFloatingHeaderLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalFloatingHeaderLayout-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B291D67E5D231013049DB40336D71B /* HorizontalFloatingHeaderLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalFloatingHeaderLayout.xcconfig; sourceTree = "<group>"; };
+		98DB33071151532A31DC98D5AB3DF6BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DC458B073A23A868E4F7D8F77E8390 /* Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A372888C7CDFE0D6B11E7B9AB4C2C72A /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A8A18F0B817BA92BA03E21E8F785E68D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFADFC5D7BE31B07C03D038DA29D6074 /* HorizontalFloatingHeaderLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalFloatingHeaderLayout.swift; path = Pod/Classes/HorizontalFloatingHeaderLayout.swift; sourceTree = "<group>"; };
+		B09316980406E757E7207B5A663C8440 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B241BE03D96FE1B82E8982DC2BAE9205 /* Pods-HorizontalFloatingHeaderLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HorizontalFloatingHeaderLayout_Example.modulemap"; sourceTree = "<group>"; };
+		B5FFD2267310C571BD332C6225D690E9 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B72DBFDDA5F63BBD21065F4F4F30741F /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+		B9B68B33C74280F62780C0AE37A24A70 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-resources.sh"; sourceTree = "<group>"; };
+		C081EC4319EF9AB4CABE80C6D2112C3E /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C75BB7F20DCFBD0CF57C085BB34D99BF /* HorizontalFloatingHeaderLayout.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalFloatingHeaderLayout.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC8C55F4483B65F11CB6E6AE3E4F4AA /* storyboard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = storyboard.png; path = Pod/Assets/storyboard.png; sourceTree = "<group>"; };
+		D590AB4634D27472691533D983AD0EEA /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalFloatingHeaderLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		D69619647E19B5BF3554DB3909212829 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF121899900720E11DF870313027BFC6 /* Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1C0C40F96B58EC8AA1A28A7C254E029 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-dummy.m"; sourceTree = "<group>"; };
+		F36D140DE861A69977A21E7393FF2F55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		366BDA5320CE00A86EE2D29657B0AB1D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A764C14D47F643FF46608079CC46FDD2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62851B503E0B1B0C9D36744614B7090C /* Frameworks */ = {
+		1E3E40A270DFFD220A616DA02EEC34E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6587211ADB9F096EB829891CDB6C02C7 /* Frameworks */ = {
+		7A962C2A6EF4968AF16DD65ABBC53E1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B752AC83779C43AB9589D43B25723B /* Foundation.framework in Frameworks */,
+				92EB1E290D3130338B14007C7E3482F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1283097F781CC67AD9A2F57532EB814 /* Frameworks */ = {
+		A8B00DDEF42192A4F94557CE2017204C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				920704691E81FEA828666D8938904B68 /* Foundation.framework in Frameworks */,
+				9CB4E071CBABB3233A4C429869667CB8 /* Foundation.framework in Frameworks */,
+				E2FD51E4F2ABA34089229561C403D53F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46E19E5B0670FD98FBD6485025D0922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E1E25713526C0E8F736C46908067AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		451A1F72E63ACBF8138AC6D85FA4EB27 /* HorizontalFloatingHeaderLayout */ = {
+		0233FEBD4D35171261E47DDDDF507EA2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				772106D639FDA20AB542D664816290B9 /* Pod */,
-				F9B0EDE15FEBBD383E425AD41BF68978 /* Support Files */,
-			);
-			name = HorizontalFloatingHeaderLayout;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4C072B6E0A635B9F950982710D5926BB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				89B04569CA080B5FF303D0AF4D6C8B6F /* Pods-HorizontalFloatingHeaderLayout_Example */,
-				DE517C2C645FC1D5DDCBA81168E8F94B /* Pods-HorizontalFloatingHeaderLayout_Tests */,
+				37676BAF549958DA8703D9D0147EFDF8 /* Pods-HorizontalFloatingHeaderLayout_Example */,
+				9CBC4577FEB0771A494B12914BEDD489 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		69E097A0A01729970AB4C77CDBA56CB2 /* Classes */ = {
+		1415428EE5E3F1DA13BA1AB51B46467D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0804C5EE1C343B860032D97B /* HorizontalFloatingHeaderLayout.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		71B79F52E9AAA70A536D92E2AD33E1CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BF87178C0C9E48AA5B1B9F2EB0DB03B4 /* HorizontalFloatingHeaderLayout.bundle */,
-				28853D47110D9D5A9559EB2FC5290665 /* HorizontalFloatingHeaderLayout.framework */,
-				17A21ECA40F443A3D4B0D90112757768 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */,
-				34E00B2D3250BDD0A52EF7D696E82804 /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */,
+				C75BB7F20DCFBD0CF57C085BB34D99BF /* HorizontalFloatingHeaderLayout.bundle */,
+				6F8E2BAA62E61386C8A701245698E945 /* HorizontalFloatingHeaderLayout.framework */,
+				278BD13B5A45B83CB79CF8EB3C0446D5 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */,
+				1DE58AE33E74F5A699AE7A067CB23520 /* Pods_HorizontalFloatingHeaderLayout_Example_HorizontalFloatingHeaderLayout_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		772106D639FDA20AB542D664816290B9 /* Pod */ = {
+		14DEF46CB41E7D6EFB5BD64DD7ADEE8D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				69E097A0A01729970AB4C77CDBA56CB2 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				AC25C501AA074CF50811ABA580CDEB03 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				71B79F52E9AAA70A536D92E2AD33E1CB /* Products */,
-				4C072B6E0A635B9F950982710D5926BB /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		89B04569CA080B5FF303D0AF4D6C8B6F /* Pods-HorizontalFloatingHeaderLayout_Example */ = {
-			isa = PBXGroup;
-			children = (
-				9444103F1CC8BCC46CD2D6E88BAC8351 /* Info.plist */,
-				275E23852223B0C3DEC24F9BCA17E5DE /* Pods-HorizontalFloatingHeaderLayout_Example.modulemap */,
-				ECEB2674A5001BC5F7955B9F757C80DC /* Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.markdown */,
-				BAD77AA40F0D0C6A3F74F6212DEC5C27 /* Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.plist */,
-				18FC16D4AE69FCCEB8928B3977ACD576 /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m */,
-				6A3C2F44C720FE5B949D6E7B8D2C5691 /* Pods-HorizontalFloatingHeaderLayout_Example-frameworks.sh */,
-				E9E42F4339068E9066BD8F27B9551F4D /* Pods-HorizontalFloatingHeaderLayout_Example-resources.sh */,
-				982BA297986D2BD9D5BE2D86D5013B8C /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h */,
-				3CAD6F0A792771B73924C8BA00A12799 /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */,
-				178F489FA8E12A0CE3A291B8084C7264 /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */,
-			);
-			name = "Pods-HorizontalFloatingHeaderLayout_Example";
-			path = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example";
-			sourceTree = "<group>";
-		};
-		AC25C501AA074CF50811ABA580CDEB03 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				451A1F72E63ACBF8138AC6D85FA4EB27 /* HorizontalFloatingHeaderLayout */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DE517C2C645FC1D5DDCBA81168E8F94B /* Pods-HorizontalFloatingHeaderLayout_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B8152F7A3455E37F9BB94D34C2F32826 /* Info.plist */,
-				C447C0E225AB97CBA5FE42ECF7885CCB /* Pods-HorizontalFloatingHeaderLayout_Tests.modulemap */,
-				5ED26251227B8C592B8E30289D12D0EC /* Pods-HorizontalFloatingHeaderLayout_Tests-acknowledgements.markdown */,
-				5EE81508F1D149CA401233ACA55E97A0 /* Pods-HorizontalFloatingHeaderLayout_Tests-acknowledgements.plist */,
-				C73D32B94F1D576AA1CDBEAFC683A28B /* Pods-HorizontalFloatingHeaderLayout_Tests-dummy.m */,
-				15318A3A4EA30985D3099F71F296EA1A /* Pods-HorizontalFloatingHeaderLayout_Tests-frameworks.sh */,
-				FA4CF4928494EB3ADC8598DBD6FB660F /* Pods-HorizontalFloatingHeaderLayout_Tests-resources.sh */,
-				F3FFB7CA021DD7288459937746415177 /* Pods-HorizontalFloatingHeaderLayout_Tests-umbrella.h */,
-				078122625B6FBAF76391106B4366B486 /* Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */,
-				9E040DFEE522DEC6192E0CE24B85DA69 /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */,
-			);
-			name = "Pods-HorizontalFloatingHeaderLayout_Tests";
-			path = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests";
-			sourceTree = "<group>";
-		};
-		F9B0EDE15FEBBD383E425AD41BF68978 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A5FAFBD21B6737CBA13627A640346BB4 /* HorizontalFloatingHeaderLayout.modulemap */,
-				74A716DF5F96F46A5FFA1D367C14DFB7 /* HorizontalFloatingHeaderLayout.xcconfig */,
-				65A411E4F12F663D3A489C9949C1B3E3 /* HorizontalFloatingHeaderLayout-dummy.m */,
-				6E55A62A7063C29BB55E0C0E0A5D8A4B /* HorizontalFloatingHeaderLayout-prefix.pch */,
-				7D78F31AFD0714061E7BA6330DDBFF17 /* HorizontalFloatingHeaderLayout-umbrella.h */,
-				32197E2B7D61026633E58195B9589EE6 /* Info.plist */,
+				196EFC607D7F61068EB6EC48C37064BB /* HorizontalFloatingHeaderLayout.modulemap */,
+				94B291D67E5D231013049DB40336D71B /* HorizontalFloatingHeaderLayout.xcconfig */,
+				4EA4518CCF961A5B1AEC27B1F6A25F89 /* HorizontalFloatingHeaderLayout-dummy.m */,
+				18F0DC43985926B3A4808D347FB3943D /* HorizontalFloatingHeaderLayout-prefix.pch */,
+				87B977FF3598C981B5753481E36FF642 /* HorizontalFloatingHeaderLayout-umbrella.h */,
+				A8A18F0B817BA92BA03E21E8F785E68D /* Info.plist */,
+				7A3FE6D67C88A414BEAABE745F7B0A76 /* ResourceBundle-HorizontalFloatingHeaderLayout-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HorizontalFloatingHeaderLayout";
 			sourceTree = "<group>";
 		};
+		37676BAF549958DA8703D9D0147EFDF8 /* Pods-HorizontalFloatingHeaderLayout_Example */ = {
+			isa = PBXGroup;
+			children = (
+				98DB33071151532A31DC98D5AB3DF6BC /* Info.plist */,
+				B241BE03D96FE1B82E8982DC2BAE9205 /* Pods-HorizontalFloatingHeaderLayout_Example.modulemap */,
+				EF121899900720E11DF870313027BFC6 /* Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.markdown */,
+				A0DC458B073A23A868E4F7D8F77E8390 /* Pods-HorizontalFloatingHeaderLayout_Example-acknowledgements.plist */,
+				D590AB4634D27472691533D983AD0EEA /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m */,
+				7A3BA988000306878EA1BFC180E40549 /* Pods-HorizontalFloatingHeaderLayout_Example-frameworks.sh */,
+				23C60ACDF0396F238A2FA45070A7695B /* Pods-HorizontalFloatingHeaderLayout_Example-resources.sh */,
+				B72DBFDDA5F63BBD21065F4F4F30741F /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h */,
+				C081EC4319EF9AB4CABE80C6D2112C3E /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */,
+				53A5FC28CB2F41BA02E7877BD54FA5AE /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */,
+			);
+			name = "Pods-HorizontalFloatingHeaderLayout_Example";
+			path = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A3B41B11E25CE8D409535067A50761F1 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1415428EE5E3F1DA13BA1AB51B46467D /* Products */,
+				0233FEBD4D35171261E47DDDDF507EA2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DDB544C21B8B6A20CFDE440D72965AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEC8C55F4483B65F11CB6E6AE3E4F4AA /* storyboard.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9CBC4577FEB0771A494B12914BEDD489 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F36D140DE861A69977A21E7393FF2F55 /* Info.plist */,
+				608A716741CE98AAC30861C222597283 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.modulemap */,
+				B5FFD2267310C571BD332C6225D690E9 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-acknowledgements.markdown */,
+				B09316980406E757E7207B5A663C8440 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-acknowledgements.plist */,
+				F1C0C40F96B58EC8AA1A28A7C254E029 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-dummy.m */,
+				02E992475DB6179C6828C9BD30931760 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-frameworks.sh */,
+				B9B68B33C74280F62780C0AE37A24A70 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-resources.sh */,
+				0091FB6F5C808D4AE028F818BFE8BC86 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-umbrella.h */,
+				D69619647E19B5BF3554DB3909212829 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */,
+				A372888C7CDFE0D6B11E7B9AB4C2C72A /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */,
+			);
+			name = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests";
+			path = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests";
+			sourceTree = "<group>";
+		};
+		A3B41B11E25CE8D409535067A50761F1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E43F62CAB07ACD234DCA30462CD79748 /* HorizontalFloatingHeaderLayout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E43F62CAB07ACD234DCA30462CD79748 /* HorizontalFloatingHeaderLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AFADFC5D7BE31B07C03D038DA29D6074 /* HorizontalFloatingHeaderLayout.swift */,
+				8DDB544C21B8B6A20CFDE440D72965AE /* Resources */,
+				14DEF46CB41E7D6EFB5BD64DD7ADEE8D /* Support Files */,
+			);
+			name = HorizontalFloatingHeaderLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6CC8A7A23111C5C40E1E7B755CB72CBC /* Headers */ = {
+		A06A5B9D521931CFF96FC915253FF4BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A339B7B640015996C78BD4AE281D6661 /* Pods-HorizontalFloatingHeaderLayout_Tests-umbrella.h in Headers */,
+				AC9915D5AAA655F2F9AA177D7EB2AB0E /* HorizontalFloatingHeaderLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE96F30455A4649DF126EDDD481E08C1 /* Headers */ = {
+		A7872F5E4FFEE98C522911AF2964F676 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EE14387AA9D62FC01BF5B9F16B0A4B3 /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h in Headers */,
+				183DD710FF2C7CE76440DF885DDA4AF0 /* Pods-HorizontalFloatingHeaderLayout_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFD562369116FEC3A739C80E3DCE67BD /* Headers */ = {
+		DFCD01CFFD1B844F01F1A25CCE54080F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C894298181F77D53C67A401C843207D2 /* HorizontalFloatingHeaderLayout-umbrella.h in Headers */,
+				765B71B0DEAC48F6FA9149CBD537C743 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		388B9CA3C57E3DE86E22A74D6A73C9C6 /* HorizontalFloatingHeaderLayout */ = {
+		46CD6F308C225BA2E863C3E523C1E400 /* HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C7DF720300F5986A72A799A26FB069E /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout" */;
+			buildConfigurationList = D2385202F1C0F71F3BBFFA87D63E101D /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout" */;
 			buildPhases = (
-				F7BDAD13EC3CB3E15881F42CCD2C3D8B /* Sources */,
-				366BDA5320CE00A86EE2D29657B0AB1D /* Frameworks */,
-				52A41664FDDD5BD544185C414032D6FB /* Resources */,
-				BFD562369116FEC3A739C80E3DCE67BD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE985505C7E886FFF5BAA74407F71CAC /* PBXTargetDependency */,
-			);
-			name = HorizontalFloatingHeaderLayout;
-			productName = HorizontalFloatingHeaderLayout;
-			productReference = 28853D47110D9D5A9559EB2FC5290665 /* HorizontalFloatingHeaderLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4E6FBC8B4CEC38207C993D444596A966 /* HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD873646A3A2BEC45F75ECC3504ADA9C /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout" */;
-			buildPhases = (
-				53EFC09796A47B948932AE9DAAD42F40 /* Sources */,
-				62851B503E0B1B0C9D36744614B7090C /* Frameworks */,
-				276AB2DC8E6D623B6995AF47D5FEBE28 /* Resources */,
+				00877DC212119B4ED2E7F62386F8E47D /* Sources */,
+				1E3E40A270DFFD220A616DA02EEC34E2 /* Frameworks */,
+				0E8022B2E5CECC008C310D1E92288E5B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -309,43 +291,62 @@
 			);
 			name = "HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout";
 			productName = "HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout";
-			productReference = BF87178C0C9E48AA5B1B9F2EB0DB03B4 /* HorizontalFloatingHeaderLayout.bundle */;
+			productReference = C75BB7F20DCFBD0CF57C085BB34D99BF /* HorizontalFloatingHeaderLayout.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		533E1B0BC8CC3FF39B28D105D8182883 /* Pods-HorizontalFloatingHeaderLayout_Tests */ = {
+		588F0BD421E7C3F9522853F6FFB439B5 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A78BF7DF8C160F7058E6F47457E9E7F1 /* Build configuration list for PBXNativeTarget "Pods-HorizontalFloatingHeaderLayout_Tests" */;
+			buildConfigurationList = B2DE30B24293E8F2BA3D06167D46D16D /* Build configuration list for PBXNativeTarget "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests" */;
 			buildPhases = (
-				EB00286C631B172914A834DBD27D570C /* Sources */,
-				6587211ADB9F096EB829891CDB6C02C7 /* Frameworks */,
-				6CC8A7A23111C5C40E1E7B755CB72CBC /* Headers */,
+				A10AE2FAF027F963FE7D0DD1913AAA77 /* Sources */,
+				D46E19E5B0670FD98FBD6485025D0922 /* Frameworks */,
+				DFCD01CFFD1B844F01F1A25CCE54080F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EFBAA994000F5D650853DD2D14E79289 /* PBXTargetDependency */,
+				7D97FE0DED31586888635F73A7838B7B /* PBXTargetDependency */,
 			);
-			name = "Pods-HorizontalFloatingHeaderLayout_Tests";
-			productName = "Pods-HorizontalFloatingHeaderLayout_Tests";
-			productReference = 34E00B2D3250BDD0A52EF7D696E82804 /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */;
+			name = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests";
+			productName = "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests";
+			productReference = 1DE58AE33E74F5A699AE7A067CB23520 /* Pods_HorizontalFloatingHeaderLayout_Example_HorizontalFloatingHeaderLayout_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7C2B7E3B51D4172EFDC2A12AE17B9C04 /* Pods-HorizontalFloatingHeaderLayout_Example */ = {
+		B0BD9BD700A5FD8B5113C20129BF1542 /* Pods-HorizontalFloatingHeaderLayout_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F40F0B3C58D91128E6BE1D893685F1F /* Build configuration list for PBXNativeTarget "Pods-HorizontalFloatingHeaderLayout_Example" */;
+			buildConfigurationList = DAC239C652F250C2A9E51C6FB2DCD781 /* Build configuration list for PBXNativeTarget "Pods-HorizontalFloatingHeaderLayout_Example" */;
 			buildPhases = (
-				4559D2BA2B77FEBD2F3416095D3ADB58 /* Sources */,
-				F1283097F781CC67AD9A2F57532EB814 /* Frameworks */,
-				BE96F30455A4649DF126EDDD481E08C1 /* Headers */,
+				8F36BCB583693A4D617C2262DD05B9AB /* Sources */,
+				7A962C2A6EF4968AF16DD65ABBC53E1F /* Frameworks */,
+				A7872F5E4FFEE98C522911AF2964F676 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16778BE1E90D4262740F1EC1090AF22E /* PBXTargetDependency */,
+				99191B453909709AD946B0AB0B8B28C0 /* PBXTargetDependency */,
 			);
 			name = "Pods-HorizontalFloatingHeaderLayout_Example";
 			productName = "Pods-HorizontalFloatingHeaderLayout_Example";
-			productReference = 17A21ECA40F443A3D4B0D90112757768 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */;
+			productReference = 278BD13B5A45B83CB79CF8EB3C0446D5 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2FEB198244C1161E741FD1FBD693A83 /* HorizontalFloatingHeaderLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FB00F83AEB0EBCE494F1DCA4714443 /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout" */;
+			buildPhases = (
+				98160F510A68FE03615142B507E605F9 /* Sources */,
+				A8B00DDEF42192A4F94557CE2017204C /* Frameworks */,
+				64125C9CF3ECE6A1B0A945109EA5D7FE /* Resources */,
+				A06A5B9D521931CFF96FC915253FF4BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF0D925B6ADFCB456DBB17619964C3F9 /* PBXTargetDependency */,
+			);
+			name = HorizontalFloatingHeaderLayout;
+			productName = HorizontalFloatingHeaderLayout;
+			productReference = 6F8E2BAA62E61386C8A701245698E945 /* HorizontalFloatingHeaderLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -354,8 +355,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -365,362 +366,438 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 71B79F52E9AAA70A536D92E2AD33E1CB /* Products */;
+			productRefGroup = 1415428EE5E3F1DA13BA1AB51B46467D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				388B9CA3C57E3DE86E22A74D6A73C9C6 /* HorizontalFloatingHeaderLayout */,
-				4E6FBC8B4CEC38207C993D444596A966 /* HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout */,
-				7C2B7E3B51D4172EFDC2A12AE17B9C04 /* Pods-HorizontalFloatingHeaderLayout_Example */,
-				533E1B0BC8CC3FF39B28D105D8182883 /* Pods-HorizontalFloatingHeaderLayout_Tests */,
+				F2FEB198244C1161E741FD1FBD693A83 /* HorizontalFloatingHeaderLayout */,
+				46CD6F308C225BA2E863C3E523C1E400 /* HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout */,
+				B0BD9BD700A5FD8B5113C20129BF1542 /* Pods-HorizontalFloatingHeaderLayout_Example */,
+				588F0BD421E7C3F9522853F6FFB439B5 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		276AB2DC8E6D623B6995AF47D5FEBE28 /* Resources */ = {
+		0E8022B2E5CECC008C310D1E92288E5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3FBBCFCC6621C60FA0E667046CD9AE /* storyboard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52A41664FDDD5BD544185C414032D6FB /* Resources */ = {
+		64125C9CF3ECE6A1B0A945109EA5D7FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14608AB3647D11DD7F6CF3AB4F0F3D44 /* HorizontalFloatingHeaderLayout.bundle in Resources */,
+				F432BA97545691A962C516E80A3B68D4 /* HorizontalFloatingHeaderLayout.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4559D2BA2B77FEBD2F3416095D3ADB58 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E668EB4A00A88A8EAB7FCE4A808B108F /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53EFC09796A47B948932AE9DAAD42F40 /* Sources */ = {
+		00877DC212119B4ED2E7F62386F8E47D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB00286C631B172914A834DBD27D570C /* Sources */ = {
+		8F36BCB583693A4D617C2262DD05B9AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23D3260C7D12AEFD2EE36D4C8B94168C /* Pods-HorizontalFloatingHeaderLayout_Tests-dummy.m in Sources */,
+				BD916D82D1A8D607951848159215F324 /* Pods-HorizontalFloatingHeaderLayout_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7BDAD13EC3CB3E15881F42CCD2C3D8B /* Sources */ = {
+		98160F510A68FE03615142B507E605F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0804C5EF1C343B860032D97B /* HorizontalFloatingHeaderLayout.swift in Sources */,
-				CD71E6C4B3688674761585344116467A /* HorizontalFloatingHeaderLayout-dummy.m in Sources */,
+				F792A491BD4433CC9199206B8217F1E8 /* HorizontalFloatingHeaderLayout-dummy.m in Sources */,
+				8B96931BBCE2E5A86130DE4BB222F1A7 /* HorizontalFloatingHeaderLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AE2FAF027F963FE7D0DD1913AAA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEB4ED4B8000E059C227765B5393739 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16778BE1E90D4262740F1EC1090AF22E /* PBXTargetDependency */ = {
+		7D97FE0DED31586888635F73A7838B7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HorizontalFloatingHeaderLayout;
-			target = 388B9CA3C57E3DE86E22A74D6A73C9C6 /* HorizontalFloatingHeaderLayout */;
-			targetProxy = 26A792D537EA660F2187B6B97AC947E2 /* PBXContainerItemProxy */;
+			target = F2FEB198244C1161E741FD1FBD693A83 /* HorizontalFloatingHeaderLayout */;
+			targetProxy = 73ADEB0922E9A4CDFFA291B1EB0E2FAC /* PBXContainerItemProxy */;
 		};
-		EFBAA994000F5D650853DD2D14E79289 /* PBXTargetDependency */ = {
+		99191B453909709AD946B0AB0B8B28C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HorizontalFloatingHeaderLayout;
-			target = 388B9CA3C57E3DE86E22A74D6A73C9C6 /* HorizontalFloatingHeaderLayout */;
-			targetProxy = F084A0B9B8D54DED310E390C0C5001D5 /* PBXContainerItemProxy */;
+			target = F2FEB198244C1161E741FD1FBD693A83 /* HorizontalFloatingHeaderLayout */;
+			targetProxy = 1FAD4F13BA136250B7F5555B7E025D7A /* PBXContainerItemProxy */;
 		};
-		FE985505C7E886FFF5BAA74407F71CAC /* PBXTargetDependency */ = {
+		CF0D925B6ADFCB456DBB17619964C3F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout";
-			target = 4E6FBC8B4CEC38207C993D444596A966 /* HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout */;
-			targetProxy = 1EA6E3A244752424EA7328A895EDBD0D /* PBXContainerItemProxy */;
+			target = 46CD6F308C225BA2E863C3E523C1E400 /* HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout */;
+			targetProxy = 4E10504E69F7BFFAAA4DBC471D495A22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FD7CB372ECD670B0A9316396D4D5321 /* Release */ = {
+		0D5C483260A456B5981F2B6640BC6219 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74A716DF5F96F46A5FFA1D367C14DFB7 /* HorizontalFloatingHeaderLayout.xcconfig */;
+			baseConfigurationReference = 94B291D67E5D231013049DB40336D71B /* HorizontalFloatingHeaderLayout.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HorizontalFloatingHeaderLayout/HorizontalFloatingHeaderLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/HorizontalFloatingHeaderLayout.modulemap";
 				PRODUCT_NAME = HorizontalFloatingHeaderLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		318BBD18453152E8646E3168DDE9602D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69619647E19B5BF3554DB3909212829 /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HorizontalFloatingHeaderLayout_Example_HorizontalFloatingHeaderLayout_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56D3D7870CC42D4747B7BF2BBC4AACB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B291D67E5D231013049DB40336D71B /* HorizontalFloatingHeaderLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HorizontalFloatingHeaderLayout/HorizontalFloatingHeaderLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/HorizontalFloatingHeaderLayout.modulemap";
+				PRODUCT_NAME = HorizontalFloatingHeaderLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E51F19D63D290715A621FCAEBFEED1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B291D67E5D231013049DB40336D71B /* HorizontalFloatingHeaderLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HorizontalFloatingHeaderLayout";
+				INFOPLIST_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/ResourceBundle-HorizontalFloatingHeaderLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HorizontalFloatingHeaderLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		76CB08E86E6C69CF47C78D7B491463B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B291D67E5D231013049DB40336D71B /* HorizontalFloatingHeaderLayout.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4610B25C103270828E057E0BA2B12FBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 178F489FA8E12A0CE3A291B8084C7264 /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_HorizontalFloatingHeaderLayout_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		52C8C9A85A0A63C661C138694D90818B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E040DFEE522DEC6192E0CE24B85DA69 /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_HorizontalFloatingHeaderLayout_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		54EB3A8B27798EF2D71338202416A661 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74A716DF5F96F46A5FFA1D367C14DFB7 /* HorizontalFloatingHeaderLayout.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HorizontalFloatingHeaderLayout";
+				INFOPLIST_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/ResourceBundle-HorizontalFloatingHeaderLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = HorizontalFloatingHeaderLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		7E8524F86B873BFEF516DC894320B11D /* Debug */ = {
+		95CBC8B3EC806B35FB837F20CF95EE03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CAD6F0A792771B73924C8BA00A12799 /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */;
+			baseConfigurationReference = 53A5FC28CB2F41BA02E7877BD54FA5AE /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_HorizontalFloatingHeaderLayout_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9B3C9F0B4D0ED6926D0C7B5CE9FA3D48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74A716DF5F96F46A5FFA1D367C14DFB7 /* HorizontalFloatingHeaderLayout.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HorizontalFloatingHeaderLayout/HorizontalFloatingHeaderLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/HorizontalFloatingHeaderLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HorizontalFloatingHeaderLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BA0CB66A162A51E9CC8529D9DDC54D4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74A716DF5F96F46A5FFA1D367C14DFB7 /* HorizontalFloatingHeaderLayout.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HorizontalFloatingHeaderLayout/HorizontalFloatingHeaderLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HorizontalFloatingHeaderLayout/HorizontalFloatingHeaderLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HorizontalFloatingHeaderLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		ED1DC11D0A1BCD4F6346530E5E3F44F1 /* Debug */ = {
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 078122625B6FBAF76391106B4366B486 /* Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9996B1506D7D20A7ABD4E5E89DB6CC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A372888C7CDFE0D6B11E7B9AB4C2C72A /* Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_HorizontalFloatingHeaderLayout_Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HorizontalFloatingHeaderLayout_Example_HorizontalFloatingHeaderLayout_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE460BA3122159B6056C8F971611DF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C081EC4319EF9AB4CABE80C6D2112C3E /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HorizontalFloatingHeaderLayout_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -734,44 +811,44 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F40F0B3C58D91128E6BE1D893685F1F /* Build configuration list for PBXNativeTarget "Pods-HorizontalFloatingHeaderLayout_Example" */ = {
+		87FB00F83AEB0EBCE494F1DCA4714443 /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E8524F86B873BFEF516DC894320B11D /* Debug */,
-				4610B25C103270828E057E0BA2B12FBB /* Release */,
+				56D3D7870CC42D4747B7BF2BBC4AACB0 /* Debug */,
+				0D5C483260A456B5981F2B6640BC6219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C7DF720300F5986A72A799A26FB069E /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout" */ = {
+		B2DE30B24293E8F2BA3D06167D46D16D /* Build configuration list for PBXNativeTarget "Pods-HorizontalFloatingHeaderLayout_Example-HorizontalFloatingHeaderLayout_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B3C9F0B4D0ED6926D0C7B5CE9FA3D48 /* Debug */,
-				BA0CB66A162A51E9CC8529D9DDC54D4E /* Release */,
+				318BBD18453152E8646E3168DDE9602D /* Debug */,
+				9996B1506D7D20A7ABD4E5E89DB6CC64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A78BF7DF8C160F7058E6F47457E9E7F1 /* Build configuration list for PBXNativeTarget "Pods-HorizontalFloatingHeaderLayout_Tests" */ = {
+		D2385202F1C0F71F3BBFFA87D63E101D /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED1DC11D0A1BCD4F6346530E5E3F44F1 /* Debug */,
-				52C8C9A85A0A63C661C138694D90818B /* Release */,
+				76CB08E86E6C69CF47C78D7B491463B3 /* Debug */,
+				6E51F19D63D290715A621FCAEBFEED1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD873646A3A2BEC45F75ECC3504ADA9C /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout-HorizontalFloatingHeaderLayout" */ = {
+		DAC239C652F250C2A9E51C6FB2DCD781 /* Build configuration list for PBXNativeTarget "Pods-HorizontalFloatingHeaderLayout_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54EB3A8B27798EF2D71338202416A661 /* Debug */,
-				0FD7CB372ECD670B0A9316396D4D5321 /* Release */,
+				FE460BA3122159B6056C8F971611DF6C /* Debug */,
+				95CBC8B3EC806B35FB837F20CF95EE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
