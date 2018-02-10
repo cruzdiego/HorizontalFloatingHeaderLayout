@@ -1,12 +1,8 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+platform :ios, '10.0'
 
-target 'HorizontalFloatingHeaderLayout_Example', :exclusive => true do
-  pod "HorizontalFloatingHeaderLayout", :path => "../"
-end
-
-target 'HorizontalFloatingHeaderLayout_Tests', :exclusive => true do
-  pod "HorizontalFloatingHeaderLayout", :path => "../"
-
-  
+target 'HorizontalFloatingHeaderLayout_Example' do
+	use_frameworks!
+  	pod "HorizontalFloatingHeaderLayout", :path => "../"
+  	target 'HorizontalFloatingHeaderLayout_Tests' do
+	end
 end

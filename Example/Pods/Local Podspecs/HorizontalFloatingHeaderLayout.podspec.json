@@ -1,16 +1,16 @@
 {
   "name": "HorizontalFloatingHeaderLayout",
-  "version": "0.1.0",
-  "summary": "A short description of HorizontalFloatingHeaderLayout.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/HorizontalFloatingHeaderLayout",
+  "version": "1.0.0",
+  "summary": "Floating headers with horizontal scrolling layout for UICollectionView, inspired by iOS native Emoji Keyboard layout",
+  "description": "HorizontalFLoatingHeaderLayout is a subclass of UICollectionViewLayout built with performance in mind. Born from the need for replicating UITableView's sticky headers behavior and iOS 8+ native Emoji keyboard.\n\nFor a vertical implementation, you can turn on *sectionHeadersPinToVisibleBounds* flag from UICollectionViewFlowLayout (available since iOS 9.0)",
+  "homepage": "https://github.com/cruzdiego/HorizontalFloatingHeaderLayout",
   "license": "MIT",
   "authors": {
     "Diego Cruz": "diego.cruz@icloud.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/HorizontalFloatingHeaderLayout.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/cruzdiego/HorizontalFloatingHeaderLayout.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,5 +21,6 @@
     "HorizontalFloatingHeaderLayout": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "UIKit"
 }
