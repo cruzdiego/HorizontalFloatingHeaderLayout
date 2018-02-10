@@ -10,22 +10,26 @@
 
 For a vertical implementation, you can turn on *sectionHeadersPinToVisibleBounds* flag from UICollectionViewFlowLayout (available since iOS 9.0)
 
+## What's new in 2.0
+
+- Added support for Swift 4.0
+
 ## Installation
 
-####Via [CocoaPods](http://cocoapods.org):
+#### Via [CocoaPods](http://cocoapods.org):
 
 ```ruby
 pod "HorizontalFloatingHeaderLayout"
 ```
 
-####Manually:
+#### Manually:
 
 1. Clone this repo or download it as a .zip file
 2. Drag and drop HorizontalFloatingHeaderLayout.swift to your project
 
-##Usage
+## Usage
 
-####From Storyboard:
+#### From Storyboard:
 
 **1.** On your UICollectionView's inspector, change its layout to "Custom" and type *HorizontalFloatingHeaderLayout* on the class field
 
@@ -45,7 +49,7 @@ class YourViewController: UIViewController, HorizontalFloatingHeaderLayoutDelega
 
 **3.** Implement all the necessary delegate methods.
 
-####Programatically:
+#### Programatically:
 
 **1.** Import framework to your UIViewController subclass
 
@@ -67,11 +71,11 @@ class YourViewController: UIViewController, HorizontalFloatingHeaderLayoutDelega
 
 **4.** Implement all the necessary delegate methods.
 
-##Delegate methods
+## Delegate methods
 
 ```swift
 //Item size
-func collectionView(collectionView: UICollectionView,horizontalFloatingHeaderItemSizeForItemAtIndexPath indexPath:NSIndexPath) -> CGSize
+func collectionView(_ collectionView: UICollectionView,horizontalFloatingHeaderItemSizeAt indexPath:NSIndexPath) -> CGSize
 ```
 
 Returns item size. Mandatory implementation.
@@ -79,36 +83,36 @@ Returns item size. Mandatory implementation.
 
 ```swift
 //Header size
-func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderSizeForSectionAtIndex section: Int) -> CGSize
+func collectionView(_ collectionView: UICollectionView, horizontalFloatingHeaderSizeAt section: Int) -> CGSize
 ```
 
 Returns section's header size. Mandatory implementation.
 
 ```swift
 //Section Inset
-optional func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderSectionInsetForSectionAtIndex section: Int) -> UIEdgeInsets
+optional func collectionView(_ collectionView: UICollectionView, horizontalFloatingHeaderSectionInsetForSectionAt section: Int) -> UIEdgeInsets
 ```
 
 Returns section's edge insets. Optional implementation. Default value is UIEdgeInsetsZero
 
 ```swift
 //Item Spacing
-optional func collectionView(collectionView: UICollectionView, horizontalFloatingHeaderItemSpacingForSectionAtIndex section: Int) -> CGFloat
+optional func collectionView(_ collectionView: UICollectionView, horizontalFloatingHeaderItemSpacingForSectionAt section: Int) -> CGFloat
 ```
 
 Returns point spacing between items on the same column. Optional implementation. Default value is 0.0.
 
 ```swift
 //Line Spacing
-optional func collectionView(collectionView: UICollectionView,horizontalFloatingHeaderColumnSpacingForSectionAtIndex section: Int) -> CGFloat
+optional func collectionView(_ collectionView: UICollectionView,horizontalFloatingHeaderColumnSpacingForSectionAt section: Int) -> CGFloat
 ```
 
 Returns points spacing between columns. Optional implementation. Default value is 0.0.
 
-##Requirements
+## Requirements
 
-- iOS 8.3
-- Xcode 7.1 or later (Uses Swift 2.1 syntax)
+- iOS 9.0
+- Xcode 8.0 or later (Uses Swift 4.0 syntax)
 
 ## Author
 
