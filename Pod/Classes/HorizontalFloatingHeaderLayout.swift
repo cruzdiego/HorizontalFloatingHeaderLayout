@@ -279,7 +279,7 @@ public class HorizontalFloatingHeaderLayout: UICollectionViewLayout {
     private func headerSize(forSection section:Int) -> CGSize{
         guard   let collectionView = collectionView,
                 let delegate = collectionView.delegate as? HorizontalFloatingHeaderLayoutDelegate,
-                section > 0 else {
+                section >= 0 else {
                 return CGSize.zero
         }
         
@@ -290,7 +290,7 @@ public class HorizontalFloatingHeaderLayout: UICollectionViewLayout {
         let defaultValue = UIEdgeInsets.zero
         guard   let collectionView = collectionView,
                 let delegate = collectionView.delegate as? HorizontalFloatingHeaderLayoutDelegate,
-                section > 0 else {
+                section >= 0 else {
                 return defaultValue
         }
         
@@ -301,7 +301,7 @@ public class HorizontalFloatingHeaderLayout: UICollectionViewLayout {
         let defaultValue:CGFloat = 0.0
         guard   let collectionView = collectionView,
                 let delegate = collectionView.delegate as? HorizontalFloatingHeaderLayoutDelegate,
-                section > 0 else {
+                section >= 0 else {
                 return defaultValue
         }
         
@@ -311,8 +311,8 @@ public class HorizontalFloatingHeaderLayout: UICollectionViewLayout {
     private func itemSpacing(forSection section:Int) -> CGFloat{
         let defaultValue:CGFloat = 0.0
         guard   let collectionView = collectionView,
-            let delegate = collectionView.delegate as? HorizontalFloatingHeaderLayoutDelegate,
-            section > 0 else {
+                let delegate = collectionView.delegate as? HorizontalFloatingHeaderLayoutDelegate,
+                section >= 0 else {
                 return defaultValue
         }
         
@@ -320,14 +320,21 @@ public class HorizontalFloatingHeaderLayout: UICollectionViewLayout {
     }
     
     private func availableHeight(atSection section:Int)->CGFloat{
+        guard let collectionView = collectionView else {
+            return 0.0
+        }
+        
         func totalInset()->CGFloat{
             let sectionInset = inset(ForSection: section)
-            let contentInset = collectionView!.contentInset
+            let contentInset = collectionView.contentInset
             return sectionInset.top + sectionInset.bottom + contentInset.top + contentInset.bottom
         }
         
         //
-        guard section >= 0 else {return 0.0}
-        return collectionView!.bounds.height - totalInset()
+        guard section >= 0 else {
+            return 0.0
+        }
+        
+        return collectionView.bounds.height - totalInset()
     }
 }
