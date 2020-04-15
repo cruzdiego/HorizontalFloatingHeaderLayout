@@ -94,7 +94,7 @@ public class HorizontalFloatingHeaderLayout: UICollectionViewLayout {
             
             //
             let size = itemSize(for: indexPath)
-            let newMaxY = currentMinY + size.height
+            let newMaxY = currentMinY
             let origin:CGPoint
             if newMaxY >  availableHeight(atSection: indexPath.section){
                 origin = newLineOrigin(size: size)
